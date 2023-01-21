@@ -34,10 +34,6 @@ public class main
             playerName = scanner.nextLine();
             players.add(new Player(playerName)); //adding players into a ArrayList that was created before
         }
-        //Player p1 = new Player("Aditi Bhatia"); //creating the characters
-        //Player p2 = new Player("Ribhav Bhatia");
-        //Player p3 = new Player("Amit Bhatia");
-        //Player p4 = new Player("Neetu Bhatia");
         ArrayList <Property> properties = new <Property> ArrayList();
         properties.add(new Property("Medditeranean Avenue", "Brown", 60, 50, 2, 10, 30, 90, 160, 250, 1)); //adding all the properties
         properties.add(new Property("Baltic Avenue", "Brown", 60, 50, 4, 20, 60, 180, 320, 450, 3));
@@ -64,7 +60,7 @@ public class main
         properties.add(new Property("Reading Railroad", "Railroad", 200, 0, 25, 25, 50, 100, 200, 0, 5));
         properties.add(new Property("Pennsylvania Railroad", "Railroad", 200, 0, 25, 25, 50, 100, 200, 0, 15));
         properties.add(new Property("B & O Railroad", "Railroad", 200, 0, 25, 25, 50, 100, 200, 0, 25));
-        properties.add(new Property("Short Line", "Railroad", 200, 0, 25, 35, 50, 100, 200, 0, 35));
+        properties.add(new Property("Short Line", "Railroad", 200, 0, 25, 25, 50, 100, 200, 0, 35));
         properties.add(new Property("Electric Company", "Utility", 150, 4, 0, 0, 0, 0, 0, 0, 12));
         properties.add(new Property("Water Works", "Utility", 60, 4, 0, 0, 0, 0, 0, 0, 28));
         while (players.size() > 1 ) //checking if there are still more than one player or else game ends
